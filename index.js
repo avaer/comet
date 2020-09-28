@@ -1,6 +1,6 @@
 import * as THREE from 'three';
-import app from 'app';
-const {scene, renderer, camera} = app;
+import {scene, renderer, camera} from 'app';
+import {BufferGeometryUtils} from 'BufferGeometryUtils';
 
 const cometFireMesh = (() => {
   const radius = 1;
